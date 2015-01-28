@@ -13,7 +13,4 @@ app.get('/nickname', function(request, response){
     response.send('smoggy-herring');
 });
 
-app.listen(
-    process.env.PORT || 4000,
-    process.env.IP || 'localhost'
-);
+app.listen(process.env.PORT || 4000);
