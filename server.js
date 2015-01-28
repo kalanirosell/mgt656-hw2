@@ -10,7 +10,7 @@ app.get('/netid', function(request, response){
 });
 
 app.get('/nickname', function(request, response){
-    response.send('smoggy herring');
+    response.send('smoggy-herring');
 });
 
 app.listen(
